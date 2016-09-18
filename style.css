@@ -1,0 +1,47 @@
+ * {
+   outline: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+
+
+img {
+	max-width: 100%;
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.header {
+	display: -webkit-flex;
+	display: flex;
+	background-color: #778899;
+	margin-bottom: 50px;
+
+}
+	.title {
+		text-align: center;
+ 		width: 100%;
+	}
+
+
+	.screenshot {
+
+		margin-right: 20px;
+		max-height: 100px;
+	}
+
+.footer {
+	background-color: #778899;
+}
+
+	.foottext {
+		text-align: center;
+	}
+
+
